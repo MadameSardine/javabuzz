@@ -28,6 +28,14 @@ describe ('Javabuzz', function() {
 
 		});
 
+		it('divisible by 15', function(){
+			expect(javabuzz.isDivisibleByFifteen(15)).toEqual(true);
+		});
+
+		it('not divisible by 15',function(){
+			expect(javabuzz.isDivisibleByFifteen(1)).toEqual(false);
+		});
+
 	});
 
 });
