@@ -50,6 +50,10 @@ describe ('Javabuzz', function() {
 
 		});
 
+		it('"Fizzbuzz when a number is divisble by 15',function(){
+			expect(javabuzz.says(15)).toEqual("Fizzbuzz");
+		});
+
 	});
 
 });
