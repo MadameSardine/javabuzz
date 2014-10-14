@@ -45,6 +45,11 @@ describe ('Javabuzz', function() {
 
 		});
 
+		it('"Buzz" when a number is divisible by 5',function(){
+			expect(javabuzz.says(5)).toEqual("Buzz");
+
+		});
+
 	});
 
 });
