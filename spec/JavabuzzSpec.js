@@ -50,8 +50,13 @@ describe ('Javabuzz', function() {
 
 		});
 
-		it('"Fizzbuzz when a number is divisble by 15',function(){
+		it('"Fizzbuzz when a number is divisible by 15',function(){
 			expect(javabuzz.says(15)).toEqual("Fizzbuzz");
+		});
+
+		it('number when not divisible by 3, 5, or 15',function(){
+			expect(javabuzz.says(1)).toEqual(1);
+
 		});
 
 	});
