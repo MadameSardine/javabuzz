@@ -1,9 +1,5 @@
-describe ('Javabuzz', function() {
+function Javabuzz() {};
 
-	var javabuzz;
-
-	describe ('knows when a number is', function() {
-
-	});
-
-});
+Javabuzz.prototype.isDivisibleByThree = function(number) {
+	return (number % 3 === 0);
+};
